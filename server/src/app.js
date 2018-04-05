@@ -16,4 +16,5 @@ app.get('/status', (req, res) => {
   })
 })
 
+// setup the port for server
 app.listen(process.env.PORT || 8081)
