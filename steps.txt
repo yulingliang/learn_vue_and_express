@@ -6,6 +6,14 @@ Install Node.js
 2. sudo n stable  
 3. sudo npm install npm -g
 
-Setup Vue template
+Setup Vue template for client
 1. sudo npm install -g vue-cli
 2. vue init webpack client 
+
+Setup the server code
+1. mkdir server (different from client code which created with vue-cli)
+2. cd server (the following steps happens inside the server folder)
+3. npm init -f
+3. sudo npm install --save nodemon eslint
+4. edit package.json to add "start" and "lint" command
+5. crate src folder and app.js under it.
