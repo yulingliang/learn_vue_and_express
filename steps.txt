@@ -16,4 +16,9 @@ Setup the server code
 3. npm init -f
 3. sudo npm install --save nodemon eslint
 4. edit package.json to add "start" and "lint" command
-5. crate src folder and app.js under it.
+5. create src folder and app.js under it.
+6. Setup eslint "node ./node_modules/eslint/bin/eslint.js --init"
+7. Install more stuff: "npm install --save express body-parser cors morgan"
+
+Registration Page
+1. in client, "npm install --save axios"
