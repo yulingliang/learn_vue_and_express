@@ -1,0 +1,11 @@
+Install NPM and downgrade it to 5.6
+npm i -g npm@5.6.0 ===> solved my problem
+
+Install Node.js
+1. npm install -g n 
+2. sudo n stable  
+3. sudo npm install npm -g
+
+Setup Vue template
+1. sudo npm install -g vue-cli
+2. vue init webpack client 
